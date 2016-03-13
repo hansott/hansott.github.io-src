@@ -8,10 +8,10 @@ url:         "http://hansott.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
-google_verification:
+google_verification: Sqz2RIXWkzvb6C6V6MLeZnBWigHKg3TQf3Sjp1FsLr8
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: UA-42118181-2
 google_tag_manager:
 # Bing services
 bing_verification:
