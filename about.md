@@ -5,16 +5,15 @@ permalink: /about/
 tags: about
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+![Hans Ott](/images/hansott.jpg)
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+I'm a web & mobile developer with a strong interest in continuous learning.
 
-Thanks to the following:
+I'm deeply in love with clean code and I'll do anything to motivate other developers to leave the campground cleaner than they found it.
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+You can find me on GitHub where I actively contribute to open source.
+
+I also maintain a few packages myself:
+
+* [Pinterest PHP](https://github.com/hansott/pinterest-php): A simple PHP wrapper for the Pinterest API.
+* [Lastify](https://github.com/hansott/lastify): PHP library that syncs your music between Last.fm, Spotify, etc.
