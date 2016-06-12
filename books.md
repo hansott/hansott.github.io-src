@@ -12,6 +12,7 @@ A list of books I own.
 - [Clean Code - Robert C. Martin](https://www.bol.com/nl/p/clean-code/1001004006133271/)
 - [Thinking, Fast and Slow - Daniel Kahneman](https://www.bol.com/nl/p/thinking-fast-and-slow/9200000001150837/)
 - [Essential Scrum - Kenneth S. Rubin](https://www.bol.com/nl/p/essential-scrum/9200000000612747/)
+- [Switch: How To Change Things When Change Is Hard](https://www.bol.com/nl/p/switch-how-to-change-things-when-change-is-hard/1001004007646250)
 
 ## Design patterns
 
