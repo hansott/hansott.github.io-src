@@ -14,4 +14,5 @@ I also maintain a few packages myself:
 * [Pinterest PHP](https://github.com/hansott/pinterest-php): A simple PHP wrapper for the Pinterest API.
 * [Lastify](https://github.com/hansott/lastify): PHP library that syncs your music between Last.fm, Spotify, etc.
 * [generator-php-package](https://github.com/hansott/generator-php-package): A yeoman generator that generates a skeleton repository for your PHP package.
-* [Spotify Backupper](https://github.com/hansott/spotify-backupper): Creates backups of your Spotify library
+* [Spotify Backupper](https://github.com/hansott/spotify-backupper): Creates backups of your Spotify library.
+* [Lottery](https://github.com/hansott/lottery): Are you feeling lucky? Play the lottery!
