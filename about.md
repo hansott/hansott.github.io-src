@@ -11,8 +11,9 @@ I'm a web & mobile developer with a strong interest in PHP, JavaScript, open-sou
 
 I also maintain a few packages myself:
 
-* [Pinterest PHP](https://github.com/hansott/pinterest-php): A simple PHP wrapper for the Pinterest API.
-* [Lastify](https://github.com/hansott/lastify): PHP library that syncs your music between Last.fm, Spotify, etc.
-* [generator-php-package](https://github.com/hansott/generator-php-package): A yeoman generator that generates a skeleton repository for your PHP package.
-* [Spotify Backupper](https://github.com/hansott/spotify-backupper): Creates backups of your Spotify library.
-* [Lottery](https://github.com/hansott/lottery): Are you feeling lucky? Play the lottery!
+* [hansott/pinterest-php](https://github.com/hansott/pinterest-php): PHP client for the Pinterest API
+* [hansott/lastify](https://github.com/hansott/lastify): Syncs your music between Last.fm and Spotify
+* [hansott/spotify-backupper](https://github.com/hansott/spotify-backupper): Creates backups of your Spotify library
+* [hansott/psr7-cookies](https://github.com/hansott/psr7-cookies): Bakes cookies for PSR-7 messages
+* [hansott/holidays](https://github.com/hansott/holidays): Returns the holidays for a country
+* [hansott/range-regex](https://github.com/hansott/range-regex): Generates a regex for a range between two numbers
