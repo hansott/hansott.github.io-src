@@ -2,7 +2,7 @@
 layout: page
 title: Reading List
 permalink: /books/
-tags: about books
+tags: about books menu
 ---
 
 This is a list of books that I own.

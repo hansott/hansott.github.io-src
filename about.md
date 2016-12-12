@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-tags: about
+tags: about menu
 ---
 
 ![Hans Ott](/images/hansott.jpg)

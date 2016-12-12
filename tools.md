@@ -2,7 +2,7 @@
 layout: page
 title: Tools
 permalink: /tools/
-tags: web development git developer tools
+tags: web development git developer tools menu
 ---
 
 This is a list of tools that I use.
