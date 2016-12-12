@@ -5,7 +5,7 @@ permalink: /books/
 tags: about books
 ---
 
-A list of books I own.
+This is a list of books that I own.
 
 ## General
 
