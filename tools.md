@@ -7,6 +7,10 @@ tags: web development git developer tools menu
 
 This is a list of tools that I use.
 
+## General
+
+* Dotfile management: [thoughtbot/rcm](https://github.com/thoughtbot/rcm)
+
 ## Git
 
 * Removing passwords, credentials and other private data: [rtyley/bfg-repo-cleaner (free)](https://github.com/rtyley/bfg-repo-cleaner)
