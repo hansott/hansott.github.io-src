@@ -10,6 +10,7 @@ This is a list of tools that I use.
 ## General
 
 * Dotfile management: [thoughtbot/rcm](https://github.com/thoughtbot/rcm)
+* Programming font: [tonsky/FiraCode (free)](https://github.com/tonsky/FiraCode)
 
 ## Git
 
@@ -19,7 +20,6 @@ This is a list of tools that I use.
 ## Development
 
 * Searching code: [ggreer/the_silver_searcher (free, known as "ag")](https://github.com/ggreer/the_silver_searcher)
-* Programming font: [tonsky/FiraCode (free)](https://github.com/tonsky/FiraCode)
 * Figuring out what a command line tool can: [tldr-pages/tldr (free)](https://github.com/tldr-pages/tldr)
-* Getting info of a class/function: [Dash (paid)](https://kapeli.com/dash)
+* Searching documentation: [Dash (paid)](https://kapeli.com/dash)
 
