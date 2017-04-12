@@ -9,7 +9,6 @@ This is a list of tools that I use.
 
 ## General
 
-* Dotfile management: [thoughtbot/rcm (free)](https://github.com/thoughtbot/rcm)
 * Programming font: [tonsky/FiraCode (free)](https://github.com/tonsky/FiraCode)
 * Creating presentations: [yhatt/marp (free)](https://github.com/yhatt/marp)
 
