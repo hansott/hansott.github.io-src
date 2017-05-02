@@ -1,0 +1,20 @@
+disableHugoGeneratorInject = true
+PygmentsCodeFences = true
+pygmentsstyle = "xcode"
+
+theme = "hansott"
+baseURL = "https://hansott.github.io/"
+languageCode = "en"
+title = "Hans Ott"
+GoogleAnalytics = "UA-42118181-2"
+
+[params]
+    description = "I'm a web & mobile developer with a strong interest in domain-driven design and functional programming."
+    email = "hansott@hotmail.be"
+    githubUsername = "hansott"
+    stackOverflowId = 3455472
+    twitterUsername = "otthans"
+    linkedInUsername = "otthans"
+
+
+

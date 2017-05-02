@@ -1,0 +1,6 @@
+name = "hansott"
+min_version = "0.20"
+
+[author]
+  name = "Hans Ott"
+  homepage = "https://hansott.github.io"
