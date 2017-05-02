@@ -9,9 +9,7 @@
         <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     </head>
     <body>
-        <header>
-            <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-        </header>
+        {{ partial "header.html" . }}
         <main>
             {{ range .Data.Pages }}
                 {{ if eq .Type "post" }}
@@ -21,13 +19,6 @@
                 {{ end }}
             {{ end }}
         </main>
-        <footer>
-            <ul>
-                <li><a href="https://github.com/{{ .Site.Params.GithubUsername }}">GitHub</a></li>
-                <li><a href="https://stackoverflow.com/users/{{ .Site.Params.stackOverflowId }}">Stack Overflow</a></li>
-                <li><a href="https://www.linkedin.com/in/{{ .Site.Params.LinkedInUsername }}">LinkedIn</a></li>
-                <li><a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">Twitter</a></li>
-            </ul>
-        </footer>
+        {{ partial "footer.html" . }}
     </body>
 </html>
