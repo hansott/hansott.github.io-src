@@ -1,0 +1,12 @@
+<ul id="post-list">
+    {{ range where .Paginator.Pages "Section" "ne" "" }}
+        <li>
+            <h2>
+                <a href='{{ .URL }}'>{{ .LinkTitle }}</a>
+            </h2>
+            <p>
+                <time datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time> / {{ .ReadingTime }} min read
+            </p>
+        </li>
+    {{ end }}
+</ul>

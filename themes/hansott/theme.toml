@@ -1,5 +1,5 @@
-name = "hansott"
-min_version = "0.20"
+name = "Hans Ott"
+min_version = 0.20
 
 [author]
   name = "Hans Ott"

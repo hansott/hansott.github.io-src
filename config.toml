@@ -3,12 +3,13 @@ PygmentsCodeFences = true
 pygmentsstyle = "xcode"
 
 theme = "hansott"
-baseURL = "https://hansott.github.io/"
+baseURL = "https://hansott.github.io"
 languageCode = "en"
 title = "Hans Ott"
 GoogleAnalytics = "UA-42118181-2"
 
 [params]
+    author = "Hans Ott"
     description = "I'm a web & mobile developer with a strong interest in domain-driven design and functional programming."
     email = "hansott@hotmail.be"
     githubUsername = "hansott"
@@ -16,5 +17,14 @@ GoogleAnalytics = "UA-42118181-2"
     twitterUsername = "otthans"
     linkedInUsername = "otthans"
 
+[[menu.main]]
+    name = "About"
+    url = "/about/"
 
+[[menu.main]]
+    name = "Reading list"
+    url = "/reading-list/"
 
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"

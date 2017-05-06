@@ -1,3 +1,9 @@
 <header>
-    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    <h1><a href='{{ .Site.BaseURL }}'>{{ .Site.Title }}</a></h1>
+    <nav class="main-nav">
+        {{ range .Site.Menus.main }}
+            <a href='{{ .URL }}'>{{ .Name }}</a>
+        {{ end }}
+        <a href="{{ .Site.RSSLink }}">Subscribe</a>
+    </nav>
 </header>

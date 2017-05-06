@@ -1,0 +1,15 @@
+{{ define "main" }}
+    {{ .Content }}
+    {{ $repositories := getJSON "https://api.github.com/users/" .Site.Params.GitHubUserName "/repos" }}
+    <ul>
+        {{ range sort $repositories "stargazers_count" "desc" }}
+            {{ if and (not .fork) (gt .stargazers_count 0) }}
+            <li>
+                <h2><a href="{{ .html_url }}">{{ .full_name }}</a></h2>
+                <p>{{ .stargazers_count }} stars</p>
+                <p>{{ .description }}</p>
+            </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+{{ end }}
