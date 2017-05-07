@@ -1,4 +1,5 @@
 {{ define "main" }}
+    <h1 class="title is-1">Posts tagged with "{{ .LinkTitle }}"</h1>
     {{ partial "post-list.html" . }}
     {{ partial "pagination.html" . }}
 {{ end }}

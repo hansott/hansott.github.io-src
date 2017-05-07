@@ -1,2 +1,11 @@
 /.idea/*
 .DS_Store
+/themes/hansott/static/css/*
+/themes/hansott/static/fonts/*
+/themes/hansott/src/css/*
+/themes/hansott/src/icons/css/*
+/themes/hansott/src/icons/preview/*
+/themes/hansott/src/icons/fonts/*
+/themes/hansott/src/icons/.fontcustom-manifest.json
+/node_modules/*
+/public/*

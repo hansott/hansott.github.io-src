@@ -1,30 +1,48 @@
 {{ define "main" }}
     <article class="post">
         <header>
-            <h1>{{ .Title }}</h1>
-            <p>
-                <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time> / {{ .ReadingTime }} min read
+            {{ partial "page-title" . }}
+            <p class="subtitle">
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                    {{ .Date.Format "January 2, 2006" }}
+                </time> · {{ .ReadingTime }} min read
             </p>
-            <ul>
-                {{ with .Params.tags }}
-                    {{ if ge (len .) 1 }}
+            {{ with .Params.tags }}
+                {{ if ge (len .) 1 }}
+                    <p style="margin-bottom: 1em;">
+                        Tags:
                         {{ range . }}
-                            <li>
-                                <a href="{{ printf "tags/%s" (. | urlize) | absURL }}">{{ . }}</a>
-                            </li>
+                            <a href="{{ printf "tags/%s" (. | urlize) | absURL }}">
+                                <span class="tag">
+                                    {{ . }}
+                                </span>
+                            </a>
                         {{ end }}
-                    {{ end }}
-                {{ end}}
-            </ul>
+                    </p>
+                {{ end }}
+            {{ end}}
         </header>
-        <section>
+        <div class="content">
             {{ .Content }}
-        </section>
+        </div>
         <footer>
-            <a href="https://twitter.com/share" target="_blank">Tweet</a>
-            <a href="https://www.facebook.com/sharer/sharer.php" target="_blank">Share</a>
+            <p style="margin-bottom: 1em;">
+                <a class="button is-twitter js-share-button" href="https://twitter.com/intent/tweet?url={{ .Permalink }}" target="_blank">
+                    <span class="icon">
+                        <i class="fa fa-twitter"></i>
+                    </span>
+                    <span>Tweet</span>
+                </a>
+                <a class="button is-facebook js-share-button" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank">
+                    <span class="icon">
+                        <i class="fa fa-facebook"></i>
+                    </span>
+                    <span>Share</span>
+                </a>
+            </p>
         </footer>
     </article>
     {{ template "_internal/disqus.html" . }}
+    <p class="subtitle" style="margin-top: 2em;">Read More</p>
     {{ partial "latest-posts.html" . }}
 {{ end }}

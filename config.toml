@@ -7,6 +7,7 @@ baseURL = "https://hansott.github.io"
 languageCode = "en"
 title = "Hans Ott"
 GoogleAnalytics = "UA-42118181-2"
+disqusShortname = "hansott"
 
 [params]
     author = "Hans Ott"
@@ -17,6 +18,9 @@ GoogleAnalytics = "UA-42118181-2"
     twitterUsername = "otthans"
     linkedInUsername = "otthans"
 
+[taxonomies]
+tag = "tags"
+
 [[menu.main]]
     name = "About"
     url = "/about/"
@@ -26,5 +30,5 @@ GoogleAnalytics = "UA-42118181-2"
     url = "/reading-list/"
 
 [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
+    name = "Packages"
+    url = "/packages/"

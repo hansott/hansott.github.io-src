@@ -1,0 +1,9 @@
+{
+  "name": "hansott.github.io",
+  "repository": "git@github.com:hansott/hansott.github.io.git",
+  "author": "Hans Ott <hansott@hotmail.be>",
+  "dependencies": {
+    "bulma": "^0.4.1",
+    "csso-cli": "^1.0.0"
+  }
+}

@@ -3,31 +3,25 @@ date = "2017-05-03T00:49:37+02:00"
 title = "Reading list"
 +++
 
-This is a list of books that I own.
+This is a list of books that I like.
 
 ## General
 
-- [Clean Code - Robert C. Martin](https://www.bol.com/nl/p/clean-code/1001004006133271/)
-- [Thinking, Fast and Slow - Daniel Kahneman](https://www.bol.com/nl/p/thinking-fast-and-slow/9200000001150837/)
-- [Essential Scrum - Kenneth S. Rubin](https://www.bol.com/nl/p/essential-scrum/9200000000612747/)
-- [Switch: How To Change Things When Change Is Hard](https://www.bol.com/nl/p/switch-how-to-change-things-when-change-is-hard/1001004007646250)
+- [Clean Code - Robert C. Martin](https://partnerprogramma.bol.com/click/click?p=1&t=url&s=48262&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fclean-code%2F1001004006133271%2F&name=Blog)  
+- [Thinking, Fast and Slow - Daniel Kahneman](https://partnerprogramma.bol.com/click/click?p=1&t=url&s=48262&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fthinking-fast-and-slow%2F9200000001150837%2F&name=Blog)
 
 ## Design patterns
 
-- [Patterns of Enterprise Application Architecture - Martin Fowler](https://www.bol.com/nl/p/patterns-of-enterprise-application-architecture/1001004001814553/)
+- [Patterns of Enterprise Application Architecture - Martin Fowler](https://partnerprogramma.bol.com/click/click?p=1&t=url&s=48262&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fpatterns-of-enterprise-application-architecture%2F1001004001814553%2F&name=Blog)
 - [Principles of Package design - Matthias Noback](https://leanpub.com/principles-of-package-design)
 
 ## Domain-driven design
 
-- [Domain-driven Design - Eric Evans](https://www.bol.com/nl/p/domain-driven-design/1001004001984629/)
-- [Implementing Domain-driven Design - Vaughn Vernon](https://www.bol.com/nl/p/implementing-domain-driven-design/9200000005548149/)
-
-## Programming languages
-
-- [The Go Programming Language - Alan Donovan](https://www.bol.com/nl/p/the-go-programming-language/9200000040078774/)
+- [Domain-driven Design - Eric Evans](https://partnerprogramma.bol.com/click/click?p=1&t=url&s=48262&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fdomain-driven-design%2F1001004001984629%2F&name=Blog)
+- [Implementing Domain-driven Design - Vaughn Vernon](https://partnerprogramma.bol.com/click/click?p=1&t=url&s=48262&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fimplementing-domain-driven-design%2F9200000005548149%2F&name=Blog)
 
 ## Functional programming
 
-- [Learn You a Haskell for Great Good! - Miran Lipovaca](https://www.bol.com/nl/p/learn-you-a-haskell-for-great-good/1001004010724438/)
-- [The Little Schemer - Daniel P. Friedeman](https://www.bol.com/nl/p/the-little-schemer/1001004000936279/)
-- [Learn You Some Erlang for Great Good! - Fred Hebert](https://www.bol.com/nl/p/learn-you-some-erlang-for-great-good-a-beginner-s-guide/9200000005244758/)
+- [Learn You a Haskell for Great Good! - Miran Lipovaca](https://partnerprogramma.bol.com/click/click?p=1&t=url&s=48262&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Flearn-you-a-haskell-for-great-good%2F1001004010724438%2F&name=Blog)
+- [The Little Schemer - Daniel P. Friedeman](https://partnerprogramma.bol.com/click/click?p=1&t=url&s=48262&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fthe-little-schemer%2F1001004000936279%2F&name=Blog)
+

@@ -1,14 +1,10 @@
-<p>Read more</p>
 <ul>
     {{ $kind := where .Site.RegularPages "Section" "!=" "" }}
     {{ $other := where $kind "URL" "!=" .URL }}
     {{ range first 10 $other }}
         <li>
-            <p>
+            <p style="margin-bottom: 1em;">
                 <a href="{{ .URL }}">{{ .LinkTitle }}</a>
-            </p>
-            <p>
-                <time datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time> / {{ .ReadingTime }} min read
             </p>
         </li>
     {{ end }}
