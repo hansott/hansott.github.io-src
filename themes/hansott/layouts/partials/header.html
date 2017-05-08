@@ -1,0 +1,52 @@
+<header>
+    <nav class="nav has-shadow">
+        <div class="container">
+            <div class="nav-left">
+                <a class="nav-item is-logo" href="/">{{ .Site.Title }}</a>
+                <a class="nav-item is-tab is-hidden-mobile {{ if .IsHome }}is-active{{ end }}" href="/">Blog</a>
+                {{- $currentPage := . -}}
+                {{ range .Site.Menus.main }}
+                    <a class="nav-item is-tab is-hidden-mobile {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}" href="{{ .URL }}">
+                        {{ .Name }}
+                    </a>
+                {{ end }}
+            </div>
+            <div class="nav-right">
+                <a class="nav-item" href="https://github.com/{{ .Site.Params.GithubUsername }}" target="_blank">
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                </a>
+                <a class="nav-item" href="https://www.linkedin.com/in/{{ .Site.Params.LinkedInUsername }}" target="_blank">
+                    <span class="icon">
+                        <i class="fa fa-linkedin"></i>
+                    </span>
+                </a>
+                <a class="nav-item" href="https://stackoverflow.com/users/{{ .Site.Params.stackOverflowId }}" target="_blank">
+                    <span class="icon">
+                        <i class="fa fa-stack-overflow"></i>
+                    </span>
+                </a>
+                <a class="nav-item" href="https://twitter.com/{{ .Site.Params.TwitterUsername }}" target="_blank">
+                    <span class="icon">
+                        <i class="fa fa-twitter"></i>
+                    </span>
+                </a>
+            </div>
+            <span class="nav-toggle js-nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <div class="nav-right nav-menu is-hidden-tablet js-nav-menu">
+                <a class="nav-item is-tab {{ if .IsHome }}is-active{{ end }}" href="/">Blog</a>
+                {{- $currentPage := . -}}
+                {{ range .Site.Menus.main }}
+                    <a class="nav-item is-tab {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}" href="{{ .URL }}">
+                        {{ .Name }}
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+    </nav>
+</header>

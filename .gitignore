@@ -1,8 +1,11 @@
-_site
-.sass-cache
+/.idea/*
 .DS_Store
-
-# Ignore the config file that's used for gh-pages.
-_config.gh-pages.yml
-
-Gemfile.lock
+/themes/hansott/static/css/*
+/themes/hansott/static/fonts/*
+/themes/hansott/src/css/*
+/themes/hansott/src/icons/css/*
+/themes/hansott/src/icons/preview/*
+/themes/hansott/src/icons/fonts/*
+/themes/hansott/src/icons/.fontcustom-manifest.json
+/node_modules/*
+/public/*

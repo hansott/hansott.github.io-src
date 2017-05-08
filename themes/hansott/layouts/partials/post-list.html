@@ -1,0 +1,14 @@
+<ul>
+    {{ range where .Paginator.Pages "Section" "ne" "" }}
+        <li>
+            <h2 class="title">
+                <a href="{{ .URL }}">{{ .LinkTitle }}</a>
+            </h2>
+            <p class="subtitle" style="margin-bottom: 1.5em;">
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                    {{ .Date.Format "January 2, 2006" }}
+                </time> · {{ .ReadingTime }} min read
+            </p>
+        </li>
+    {{ end }}
+</ul>

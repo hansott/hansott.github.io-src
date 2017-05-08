@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@import "../../../../node_modules/bulma/sass/utilities/_all";
+
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+    "twitter": (#1da1f2, $white),
+    "facebook": (#3b5998, $white)
+);
+
+@import "../../../../node_modules/bulma/sass/base/_all";
+@import "../../../../node_modules/bulma/sass/grid/columns";
+@import "../../../../node_modules/bulma/sass/elements/content";
+@import "../../../../node_modules/bulma/sass/elements/button";
+@import "../../../../node_modules/bulma/sass/elements/title";
+@import "../../../../node_modules/bulma/sass/elements/tag";
+@import "../../../../node_modules/bulma/sass/elements/icon";
+@import "../../../../node_modules/bulma/sass/elements/other";
+@import "../../../../node_modules/bulma/sass/elements/box";
+@import "../../../../node_modules/bulma/sass/elements/image";
+@import "../../../../node_modules/bulma/sass/components/nav";
+@import "../../../../node_modules/bulma/sass/components/pagination";
+@import "../../../../node_modules/bulma/sass/layout/footer";
+
+.content {
+    .highlight:not(:last-child) {
+        margin-bottom: 1em;
+    }
+}
+
+main {
+    padding: 1em 1em;
+    @include tablet {
+        padding: 2em 2em;
+    }
+    @include desktop {
+        padding: 3em 0;
+    }
+}
+
+.container {
+    @include desktop {
+        max-width: (1 / 12) * 10 * 100%;
+        width: (1 / 12) * 10 * 100%;
+    }
+    @include widescreen {
+        max-width: (1 / 12) * 8 * 100%;
+        width: (1 / 12) * 8 * 100%;
+    }
+}
+
+.nav-item {
+    &.is-logo {
+        font-size: 1.25rem;
+    }
+}
+
+.nav-left {
+    overflow: inherit;
+}

@@ -1,0 +1,11 @@
+<ul>
+    {{ $kind := where .Site.RegularPages "Section" "!=" "" }}
+    {{ $other := where $kind "URL" "!=" .URL }}
+    {{ range first 10 $other }}
+        <li>
+            <p style="margin-bottom: 1em;">
+                <a href="{{ .URL }}">{{ .LinkTitle }}</a>
+            </p>
+        </li>
+    {{ end }}
+</ul>

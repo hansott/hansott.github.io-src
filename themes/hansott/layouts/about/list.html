@@ -1,0 +1,15 @@
+{{ define "main" }}
+    <div class="columns">
+        <div class="column is-3-desktop is-4-tablet">
+            <div class="image">
+                <img src="/images/hansott.jpg" alt="Avatar {{ .Site.Params.author }}">
+            </div>
+        </div>
+        <div class="column">
+            {{ partial "page-title" . }}
+            <div class="content">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+{{ end }}
