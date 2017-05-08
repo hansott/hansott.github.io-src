@@ -9,8 +9,10 @@
         menuIsOpen = !menuIsOpen;
         if (menuIsOpen) {
             navMenu.classList.add(activeClassName);
+            toggle.classList.add(activeClassName);
         } else {
             navMenu.classList.remove(activeClassName);
+            toggle.classList.remove(activeClassName);
         }
     }
 
@@ -25,6 +27,7 @@
         if (menuIsOpen) {
             menuIsOpen = false;
             navMenu.classList.remove(activeClassName);
+            toggle.classList.remove(activeClassName);
         }
     }
 
