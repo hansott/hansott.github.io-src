@@ -39,7 +39,7 @@
                 <span></span>
             </span>
             <div class="nav-right nav-menu is-hidden-tablet js-nav-menu">
-                <a class="nav-item is-tab {{ if .IsHome }}is-active{{ end }}" href="{{ .Site.BaseURL }}">Blog</a>
+                <a class="nav-item is-tab {{ if .IsHome }}is-active{{ end }}" href="/">Blog</a>
                 {{- $currentPage := . -}}
                 {{ range .Site.Menus.main }}
                     <a class="nav-item is-tab {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}" href="{{ .URL }}">
