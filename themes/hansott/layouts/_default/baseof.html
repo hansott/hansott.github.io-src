@@ -5,13 +5,9 @@
     </head>
     <body>
         {{ partial "header.html" . }}
-        <div class="columns">
-            <div class="column is-12-tablet is-10-desktop is-offset-1-desktop is-8-widescreen is-offset-2-widescreen">
-                <main>
-                    {{ block "main" . -}}{{- end }}
-                </main>
-            </div>
-        </div>
+        <main class="container">
+            {{ block "main" . -}}{{- end }}
+        </main>
         {{ partial "footer.html" . }}
         <script src="/js/main.js"></script>
         {{ template "_internal/google_analytics_async.html" . }}

@@ -46,7 +46,6 @@ main {
     }
 }
 
-// column is-12-tablet is is-10-desktop is-offset-1-desktop is-8-widescreen is-offset-2-widescreen
 .container {
     @include desktop {
         max-width: (1 / 12) * 10 * 100%;
