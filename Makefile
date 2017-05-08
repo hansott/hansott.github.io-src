@@ -11,7 +11,7 @@ server: css
 	hugo server --watch
 
 clean:
-	rm -rf docs || true
+	rm -rf public/* || true
 	rm $(THEME_DIR)/static/css/main.css || true
 	rm $(THEME_DIR)/src/icons/css/icons.css || true
 	rm $(THEME_DIR)/static/fonts/* || true

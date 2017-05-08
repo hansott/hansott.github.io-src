@@ -8,3 +8,4 @@
 /themes/hansott/src/icons/fonts/*
 /themes/hansott/src/icons/.fontcustom-manifest.json
 /node_modules/*
+/public/*

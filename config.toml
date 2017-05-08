@@ -2,7 +2,6 @@ disableHugoGeneratorInject = true
 preserveTaxonomyNames = true
 PygmentsCodeFences = true
 pygmentsstyle = "xcode"
-publishDir = "docs"
 
 theme = "hansott"
 baseURL = "https://hansott.github.io"
