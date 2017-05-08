@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Hans Ott</title>
+    <link>https://hansott.github.io/tags/react/</link>
+    <description>Recent content in React on Hans Ott</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Mar 2016 10:04:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://hansott.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A simple, declarative, and composable way to fetch data for React components</title>
+      <link>https://hansott.github.io/post/a-simple-declarative-and-composable-way-to-fetch-data-for-react-components/</link>
+      <pubDate>Mon, 14 Mar 2016 10:04:00 +0200</pubDate>
+      
+      <guid>https://hansott.github.io/post/a-simple-declarative-and-composable-way-to-fetch-data-for-react-components/</guid>
+      <description>Introducing React Refetch  We obviously needed to standardize on a way to load data, but we weren’t really happy with any of our existing methods. Loading data into state made components smarter and more mutable than they needed to be, and these problems only became worse with more data sources. We liked the general idea of unidirectional flow and division of responsibility that the Flux architecture introduced, but it also brought a lot of boilerplate and complexity with it.</description>
+    </item>
+    
+  </channel>
+</rss>

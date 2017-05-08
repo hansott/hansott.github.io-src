@@ -1,6 +1,8 @@
 disableHugoGeneratorInject = true
+preserveTaxonomyNames = true
 PygmentsCodeFences = true
 pygmentsstyle = "xcode"
+publishDir = "docs"
 
 theme = "hansott"
 baseURL = "https://hansott.github.io"
@@ -8,7 +10,6 @@ languageCode = "en"
 title = "Hans Ott"
 GoogleAnalytics = "UA-42118181-2"
 disqusShortname = "hansott"
-preserveTaxonomyNames = true
 
 [params]
     author = "Hans Ott"
