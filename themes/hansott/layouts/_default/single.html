@@ -12,7 +12,7 @@
                     <p style="margin-bottom: 1em;">
                         Tags:
                         {{ range . }}
-                            <a href="{{ printf "tags/%s" (. | urlize) | absURL }}">
+                            <a href="{{ printf "/tags/%s" (. | urlize) }}">
                                 <span class="tag">
                                     {{ . }}
                                 </span>

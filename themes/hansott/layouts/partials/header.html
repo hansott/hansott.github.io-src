@@ -2,8 +2,8 @@
     <nav class="nav has-shadow">
         <div class="container">
             <div class="nav-left">
-                <a class="nav-item is-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-                <a class="nav-item is-tab is-hidden-mobile {{ if .IsHome }}is-active{{ end }}" href="{{ .Site.BaseURL }}">Blog</a>
+                <a class="nav-item is-logo" href="/">{{ .Site.Title }}</a>
+                <a class="nav-item is-tab is-hidden-mobile {{ if .IsHome }}is-active{{ end }}" href="/">Blog</a>
                 {{- $currentPage := . -}}
                 {{ range .Site.Menus.main }}
                     <a class="nav-item is-tab is-hidden-mobile {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}" href="{{ .URL }}">
