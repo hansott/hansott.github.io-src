@@ -8,6 +8,7 @@ languageCode = "en"
 title = "Hans Ott"
 GoogleAnalytics = "UA-42118181-2"
 disqusShortname = "hansott"
+preserveTaxonomyNames = true
 
 [params]
     author = "Hans Ott"
