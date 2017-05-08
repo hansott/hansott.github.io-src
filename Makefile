@@ -29,4 +29,4 @@ $(THEME_DIR)/src/css/custom.css
 	mkdir -p $(@D)
 	mkdir -p $(THEME_DIR)/static/fonts
 	cp -r $(THEME_DIR)/src/icons/fonts/. $(THEME_DIR)/static/fonts
-	cat $^ | node_modules/.bin/csso --comments none > $@
+	cat $^ | node_modules/.bin/csso --comments none | node_modules/.bin/postcss --use autoprefixer > $@
