@@ -8,7 +8,7 @@ build: css
 css: $(THEME_DIR)/static/css/main.css
 
 server: css
-	hugo server --watch
+	hugo server --watch --buildDrafts
 
 clean:
 	rm -rf public/* || true
