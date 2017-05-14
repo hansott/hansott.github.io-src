@@ -1,6 +1,6 @@
 {{ define "header" }}
-    <article class="post">
-        <div class="hero is-primary is-bold">
+    <article class="post" role="article">
+        <header class="hero is-primary is-bold">
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title">{{ .Title }}</h1>
@@ -22,7 +22,7 @@
                     {{ end }}
                 </div>
             </div>
-        </div>
+        </header>
 {{ end }}
 
 {{ define "main" }}
