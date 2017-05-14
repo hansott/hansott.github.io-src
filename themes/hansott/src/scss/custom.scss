@@ -29,6 +29,7 @@ $colors: (
 @import "../../../../node_modules/bulma/sass/components/nav";
 @import "../../../../node_modules/bulma/sass/components/pagination";
 @import "../../../../node_modules/bulma/sass/layout/footer";
+@import "../../../../node_modules/bulma/sass/layout/hero";
 
 .content {
     .highlight:not(:last-child) {
@@ -39,7 +40,7 @@ $colors: (
     }
 }
 
-main {
+.main {
     padding: 1em 1em;
     @include tablet {
         padding: 2em 2em;
@@ -49,23 +50,32 @@ main {
     }
 }
 
+.post .main {
+    @include desktop {
+        padding: 2em 0;
+    }
+}
+
 .container {
     @include desktop {
-        max-width: (1 / 12) * 10 * 100%;
-        width: (1 / 12) * 10 * 100%;
+        max-width: $tablet - 40px;
+        width: $tablet - 40px;
     }
     @include widescreen {
-        max-width: (1 / 12) * 8 * 100%;
-        width: (1 / 12) * 8 * 100%;
+        max-width: $tablet - 40px;
+        width: $tablet - 40px;
+    }
+    @include fullhd {
+        max-width: $tablet - 40px;
+        width: $tablet - 40px;
     }
 }
 
-.nav-item {
-    &.is-logo {
+.nav {
+    .nav-item .is-logo {
         font-size: 1.25rem;
     }
-}
-
-.nav-left {
-    overflow: inherit;
+    .nav-left {
+        overflow: inherit;
+    }
 }

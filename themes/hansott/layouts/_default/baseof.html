@@ -5,9 +5,12 @@
     </head>
     <body>
         {{ partial "header.html" . }}
-        <main class="container">
-            {{ block "main" . -}}{{- end }}
-        </main>
+        {{ block "header" . -}}{{- end }}
+        <div class="container">
+            <div class="main">
+                {{ block "main" . -}}{{- end }}
+            </div>
+        </div>
         {{ partial "footer.html" . }}
         <script src="/js/main.js"></script>
         {{ template "_internal/google_analytics_async.html" . }}
