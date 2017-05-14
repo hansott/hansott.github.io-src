@@ -1,6 +1,6 @@
 {{ define "main" }}
     <h1 class="title is-1">
-        Blog <a href="{{ .Site.RSSLink }}"><i style="font-size: 1em;" class="fa fa-rss"></i></a>
+        Blog <a href="{{ .Site.RSSLink }}" title="RSS"><i style="font-size: 1em;" class="fa fa-rss" aria-hidden="true"></i></a>
     </h1>
     {{ partial "post-list.html"  . }}
     {{ partial "pagination.html" . }}
