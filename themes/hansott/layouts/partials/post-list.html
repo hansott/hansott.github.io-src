@@ -2,7 +2,7 @@
     {{ range where .Paginator.Pages "Section" "ne" "" }}
         <li itemid="{{ .URL }}" itemscope itemtype="https://schema.org/BlogPosting">
             <h2 class="title">
-                <a href="{{ .URL }}" itemprop="name">{{ .LinkTitle }}</a>
+                <a href="{{ .URL }}" itemprop="headline">{{ .LinkTitle }}</a>
             </h2>
             <p class="subtitle" style="margin-bottom: 1.5em;">
                 <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">
