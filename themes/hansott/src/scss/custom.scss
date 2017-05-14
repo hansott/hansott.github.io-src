@@ -34,6 +34,9 @@ $colors: (
     .highlight:not(:last-child) {
         margin-bottom: 1em;
     }
+    .anchor {
+        margin-left: 5px;
+    }
 }
 
 main {
