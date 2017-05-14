@@ -1,11 +1,11 @@
 {{ define "header" }}
-    <article class="post" role="article">
+    <article class="post" role="article" itemid="{{ .Permalink }}" itemscope itemtype="https://schema.org/BlogPosting">
         <header class="hero is-primary is-bold">
             <div class="hero-body">
                 <div class="container">
-                    <h1 class="title">{{ .Title }}</h1>
+                    <h1 class="title" itemprop="name">{{ .Title }}</h1>
                     <h2 class="subtitle">
-                        <time datetime="{{ .Date.Format "2006-01-02" }}">
+                        <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">
                         {{ .Date.Format "January 2, 2006" }}
                         </time> · {{ .ReadingTime }} min read
                     </h2>
@@ -26,7 +26,7 @@
 {{ end }}
 
 {{ define "main" }}
-        <div class="content">
+        <div class="content" itemprop="articleBody">
             {{ .Content }}
         </div>
         <footer>

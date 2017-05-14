@@ -2,9 +2,9 @@
     {{ $kind := where .Site.RegularPages "Section" "!=" "" }}
     {{ $other := where $kind "URL" "!=" .URL }}
     {{ range first 10 $other }}
-        <li>
+        <li itemid="{{ .URL }}" itemscope itemtype="https://schema.org/BlogPosting">
             <p style="margin-bottom: 1em;">
-                <a href="{{ .URL }}">{{ .LinkTitle }}</a>
+                <a href="{{ .URL }}" itemprop="name">{{ .LinkTitle }}</a>
             </p>
         </li>
     {{ end }}

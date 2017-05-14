@@ -1,11 +1,11 @@
 <ul>
     {{ range where .Paginator.Pages "Section" "ne" "" }}
-        <li>
+        <li itemid="{{ .URL }}" itemscope itemtype="https://schema.org/BlogPosting">
             <h2 class="title">
-                <a href="{{ .URL }}">{{ .LinkTitle }}</a>
+                <a href="{{ .URL }}" itemprop="name">{{ .LinkTitle }}</a>
             </h2>
             <p class="subtitle" style="margin-bottom: 1.5em;">
-                <time datetime="{{ .Date.Format "2006-01-02" }}">
+                <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">
                     {{ .Date.Format "January 2, 2006" }}
                 </time> · {{ .ReadingTime }} min read
             </p>
