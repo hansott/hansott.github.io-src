@@ -2,18 +2,23 @@
 
 @import "../../../../node_modules/bulma/sass/utilities/_all";
 
+$twitter: #1da1f2;
+$facebook: #3b5998;
+$primary: $twitter;
+$link: $twitter;
+$link-invert: findColorInvert($twitter);
 $colors: (
-    "white": ($white, $black),
-    "black": ($black, $white),
-    "light": ($light, $light-invert),
-    "dark": ($dark, $dark-invert),
     "primary": ($primary, $primary-invert),
-    "info": ($info, $info-invert),
-    "success": ($success, $success-invert),
-    "warning": ($warning, $warning-invert),
-    "danger": ($danger, $danger-invert),
-    "twitter": (#1da1f2, $white),
-    "facebook": (#3b5998, $white)
+    "twitter": ($twitter, $white),
+    "facebook": ($facebook, $white)
+    // "white": ($white, $black),
+    // "black": ($black, $white),
+    // "light": ($light, $light-invert),
+    // "dark": ($dark, $dark-invert),
+    // "info": ($info, $info-invert),
+    // "success": ($success, $success-invert),
+    // "warning": ($warning, $warning-invert),
+    // "danger": ($danger, $danger-invert),
 );
 
 @import "../../../../node_modules/bulma/sass/base/_all";
