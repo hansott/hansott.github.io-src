@@ -28,6 +28,9 @@
 {{ define "main" }}
         <div class="content" itemprop="articleBody">
             {{ .Content }}
+            <p>
+                <small>Last modified at <time itemprop="dateModified" datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "January 2, 2006" }}</time>.</small>
+            </p>
         </div>
         <footer>
             <p style="margin-bottom: 1em;">
