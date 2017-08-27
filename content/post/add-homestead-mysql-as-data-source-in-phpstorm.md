@@ -1,10 +1,10 @@
 +++
 date = "2016-03-13T11:34:28+02:00"
-title = "Add homestead MySQL as data source in PHPStorm"
+title = "Add homestead MySQL as data source in PhpStorm"
 tags = ["Laravel", "Vagrant", "Homestead", "MySql", "PhpStorm"]
 +++
 
-To be able to work with your databases in PHPStorm, you should define them as data sources. Data sources provide the basis for SQL coding assistance and code validation.
+To be able to work with your databases in PhpStorm, you should define them as data sources. Data sources provide the basis for SQL coding assistance and code validation.
 
 > Laravel Homestead is an official, pre-packaged Vagrant box that provides you a wonderful development environment without requiring you to install PHP, HHVM, a web server, and any other server software on your local machine.
 
