@@ -3,7 +3,7 @@ THEME_DIR=themes/hansott
 .PHONY: server build clean css
 
 build: css
-	hugo
+	hugo --ignoreCache
 
 css: $(THEME_DIR)/static/css/main.css
 
