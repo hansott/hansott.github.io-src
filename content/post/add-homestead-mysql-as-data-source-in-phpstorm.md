@@ -1,7 +1,7 @@
 +++
 date = "2016-03-13T11:34:28+02:00"
 title = "Add homestead MySQL as data source in PhpStorm"
-tags = ["Laravel", "Vagrant", "Homestead", "MySql", "PhpStorm"]
+tags = ["Laravel", "Vagrant", "Homestead", "MySQL", "PhpStorm"]
 +++
 
 To be able to work with your databases in PhpStorm, you should define them as data sources. Data sources provide the basis for SQL coding assistance and code validation.
