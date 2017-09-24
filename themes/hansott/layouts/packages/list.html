@@ -6,7 +6,7 @@
     {{ $repositories := getJSON "https://api.github.com/users/" .Site.Params.GitHubUserName "/repos" }}
     <ul class="columns is-multiline">
         {{ range sort $repositories "stargazers_count" "desc" }}
-            {{ if or (eq .name "psr7-cookies") (eq .name "pinterest-php") (eq .name "spotify-backupper") (eq .name "lastify") (eq .name "range-regex") }}
+            {{ if or (eq .name "psr7-cookies") (eq .name "pinterest-php") (eq .name "spotify-backupper") (eq .name "lastify") (eq .name "range-regex") (eq .name "graphql-language") (eq .name "hansott.github.io-src") }}
                 <div class="column is-6">
                     <div class="box">
                         <h2 class="title is-4" style="margin-bottom: 0.5em;">
