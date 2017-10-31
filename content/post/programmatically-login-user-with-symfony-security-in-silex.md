@@ -1,6 +1,6 @@
 +++
 date = "2016-05-02T20:40:00+02:00"
-title = "Programmatically login user with symfony/security in Silex"
+title = "Programmatically Login User With symfony/security in Silex"
 tags = ["PHP", "Silex", "Symfony"]
 +++
 

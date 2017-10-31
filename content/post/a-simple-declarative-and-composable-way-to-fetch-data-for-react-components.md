@@ -1,6 +1,6 @@
 +++
 date = "2016-03-14T10:04:00+02:00"
-title = "A simple, declarative, and composable way to fetch data for React components"
+title = "A Simple, Declarative, and Composable Way to Fetch Data for React Components"
 tags = ["React", "Redux"]
 +++
 

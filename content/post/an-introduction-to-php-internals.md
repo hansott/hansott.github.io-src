@@ -1,7 +1,7 @@
 +++
 date = "2017-05-10T21:23:09+02:00"
 tags = ["PHP"]
-title = "An introduction to how PHP works behind the scenes"
+title = "An Introduction to How PHP Works Behind The Scenes"
 draft = true
 +++
 

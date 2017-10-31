@@ -1,6 +1,6 @@
 +++
 date = "2016-03-13T11:34:28+02:00"
-title = "Add homestead MySQL as data source in PhpStorm"
+title = "Add Homestead MySQL as Data Source in PhpStorm"
 tags = ["Laravel", "Vagrant", "Homestead", "MySQL", "PhpStorm"]
 +++
 

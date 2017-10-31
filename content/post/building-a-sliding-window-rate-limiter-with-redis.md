@@ -1,6 +1,6 @@
 +++
 date = "2017-06-02T09:00:00+02:00"
-title = "Building a sliding window rate limiter with Redis"
+title = "Building a Sliding Window Rate Limiter With Redis"
 tags = ["Redis", "PHP"]
 +++
 

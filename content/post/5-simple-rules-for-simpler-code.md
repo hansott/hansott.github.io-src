@@ -1,6 +1,6 @@
 +++
 date = "2017-08-21T09:00:00+02:00"
-title = "5 simple rules for simpler code"
+title = "5 Simple Rules for Simpler Code"
 tags = ["PHP"]
 +++
 
