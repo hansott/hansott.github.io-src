@@ -32,6 +32,8 @@ The last step is authentication:
 
 That's it!
 
+Update: [You might not need to use SSH](https://laravel.com/docs/5.5/homestead#connecting-to-databases).
+
 ### Links
 * [PHPStorm: Databases and SQL](https://www.jetbrains.com/phpstorm/help/databases-and-sql.html)
 * [PHPStorm: Managing Data Sources](https://www.jetbrains.com/phpstorm/help/managing-data-sources.html)
