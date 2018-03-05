@@ -1,7 +1,7 @@
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function() {
-        this.page.url = '{{with .GetParam "disqus_title" }}{{ . }}{{ else }}{{ .Title }}{{end}}';
+        this.page.url = '{{ .Permalink }}';
         this.page.title = '{{with .GetParam "disqus_title" }}{{ . }}{{ else }}{{ .Title }}{{end}}';
         this.page.identifier = '{{with .GetParam "disqus_identifier" }}{{ . }}{{ else }}{{ .Permalink }}{{end}}';
     };
