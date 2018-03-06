@@ -1,21 +1,6 @@
 {{ define "main" }}
-    <div class="columns">
-        <div class="column is-4 is-8-mobile is-offset-4 is-offset-2-mobile">
-            <p class="has-text-centered">
-                <img src="/images/hansott.jpg" alt="Hans Ott">
-            </p>
-        </div>
-    </div>
-    <div class="columns">
-        <div class="column">
-            <h1 class="title is-1 has-text-centered">{{ .Title }}</h1>
-        </div>
-    </div>
-    <div class="columns">
-        <div class="column is-10 is-offset-1">
-            <div class="content">
-                {{ .Content }}
-            </div>
-        </div>
+    {{ partial "page-title" . }}
+    <div class="content">
+        {{ .Content }}
     </div>
 {{ end }}
