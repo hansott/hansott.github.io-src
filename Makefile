@@ -16,8 +16,8 @@ clean:
 	rm $(THEME_DIR)/src/icons/css/icons.css || true
 	rm $(THEME_DIR)/static/fonts/* || true
 
-$(THEME_DIR)/src/icons/css/icons.css:
-	cd $(THEME_DIR)/src/icons && fontcustom compile
+$(THEME_DIR)/src/icons/css/icons.css: $(shell find themes/hansott/src/icons/svg -name '*.svg')
+	cd $(THEME_DIR)/src/icons && fontcustom compile --debug
 
 $(THEME_DIR)/src/css/custom.css: $(THEME_DIR)/src/scss/custom.scss
 	mkdir -p $(@D)
