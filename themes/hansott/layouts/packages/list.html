@@ -3,22 +3,12 @@
     <div class="content">
         {{ .Content }}
     </div>
-    {{ $repositories := getJSON "https://api.github.com/users/" .Site.Params.GitHubUserName "/repos" }}
     <ul class="columns is-multiline">
-        {{ range sort $repositories "stargazers_count" "desc" }}
-            {{ if or (eq .name "psr7-cookies") (eq .name "pinterest-php") (eq .name "spotify-backupper") (eq .name "lastify") (eq .name "graphql-language") }}
-                <div class="column is-6">
-                    <div class="box">
-                        <h2 class="title is-4" style="margin-bottom: 0.5em;">
-                            <a href="{{ .html_url }}" target="_blank">{{ .full_name }}</a>
-                        </h2>
-                        <p style="margin-bottom: 0.5em;">{{ .description }}</p>
-                        <p>
-                            {{ .language }} · <i style="font-size: 1em;" class="fa fa-star" aria-hidden="true"></i> {{ .stargazers_count }}
-                        </p>
-                    </div>
-                </div>
-            {{ end }}
-        {{ end }}
+        {{ $package := getJSON "https://packagist.org/packages/hansott/pinterest-php.json" }}
+        {{ partial "package" (dict "package" $package) }}
+        {{ $package := getJSON "https://packagist.org/packages/hansott/psr7-cookies.json" }}
+        {{ partial "package" (dict "package" $package) }}
+        {{ $package := getJSON "https://packagist.org/packages/hansott/spotify-backupper.json" }}
+        {{ partial "package" (dict "package" $package) }}
     </ul>
 {{ end }}

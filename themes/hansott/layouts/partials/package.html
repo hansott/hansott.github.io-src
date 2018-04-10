@@ -1,0 +1,13 @@
+<div class="column is-6">
+    <div class="box">
+        <h2 class="title is-4" style="margin-bottom: 0.5em;">
+            <a href="{{ .package.package.repository }}" target="_blank">{{ .package.package.name }}</a>
+        </h2>
+        <p style="margin-bottom: 1em">{{ .package.package.description }}</p>
+        <p>
+            <a href="https://packagist.org/packages/{{ .package.package.name }}">
+                <img src="https://img.shields.io/packagist/dt/{{ .package.package.name }}.svg?style=flat-square" alt="Downloads">
+            </a>
+        </p>
+    </div>
+</div>
